@@ -1,0 +1,61 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 16,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.cursorBlinking": "smooth",
+  "files.autoSave": "afterDelay",
+"editor.mouseWheelZoom": true,
+  "workbench.editor.showTabs": false,
+  "window.titleSeparator": "  | ",
+  "window.title": "RAFI",
+  "editor.minimap.enabled": false,
+  "workbench.colorCustomizations": {
+    "[Houston]": {
+        // "editor.background": "#071318"
+        "editor.background": "#1e1f22",
+        "sideBar.background": "#2b2d30",
+        "activityBar.background": "#2b2d30",
+        "statusBar.background": "#2b2d30"
+    }
+},
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "quokka.automaticRestart": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Houston",
+  "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+  "window.zoomLevel": 1,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
+    }
+  },
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+}
