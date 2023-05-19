@@ -3,6 +3,7 @@
     "terminal.integrated.fontSize": 16,
     "editor.fontSize": 18,
     "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "normal",
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
   "editor.cursorBlinking": "smooth",
   "files.autoSave": "afterDelay",
@@ -23,9 +24,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "quokka.automaticRestart": true,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "workbench.panel.defaultLocation": "left",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Houston",
   "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
   "window.zoomLevel": 1,
   "[python]": {
@@ -58,4 +59,8 @@
   "workbench.startupEditor": "none",
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.defaultProfile.linux": "bash",
+  "workbench.productIconTheme": "flippidippi-product-icons",
+  "workbench.colorTheme": "flippidippi dark",
+  "tabnine.experimentalAutoImports": true,
+  "workbench.panel.defaultLocation": "left",
 }
